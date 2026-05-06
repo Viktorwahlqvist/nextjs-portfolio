@@ -44,7 +44,7 @@ function Navbar() {
             ))}</div>
         </div>
         <div className="hidden md:block">
-          <Button size="sm">Contact Me</Button>
+          <Button size="sm"><Link href="contact">Contact Me</Link></Button>
         </div>
 
 
@@ -60,7 +60,7 @@ function Navbar() {
               {link.label}
             </Link>
           ))}
-            <Button onClick={() => setIsMobileMenuOpen(false)}>Contact Me</Button>
+            <Button onClick={() => setIsMobileMenuOpen(false)}><Link href="contact">Contact Me</Link></Button>
           </div>
         </div>
       )}
